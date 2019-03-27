@@ -5,14 +5,14 @@ Given two cummulative distribution functions (CDFs) $F_1$ and $F_2$ on $\mathbb{
 $$
     W_1(F_1,F_2) = \left[ \underset{F\in\Gamma(F_1,F_2)}{\inf} \int \limits_{\mathbb{R}^2} |x-y| dF(x,y \right],
 $$
-where $\Gamma(F_1,F_2)$ denotes the set of all joint distributions on $\mathbb{R}^2$ having $F_1$ and $F_2$ as marginals [Def. 1, 1].
+where $\Gamma(F_1,F_2)$ denotes the set of all joint distributions on $\mathbb{R}^2$ having $F_1$ and $F_2$ as marginals. Given $L>0$ and $p>0$, a function $f:\mathbb{R} \rightarrow \mathbb{R}$ is $L-$Holder of the order $p$ if $|f(x)-f(y)| \leq L|x-y|^p$ for all $x,y \in \mathbb{R}$. The function is $L-$Lipchitz if it is $L-$Holder of order $1$ [Def. 1, 1].
 
 ---
 Suppose $X$ and $Y$ are r.v.s having CDF $F_1$ and $F_2$, respectively. Then,
 $$
     \sup | \mathbb{E}(f(X)-\mathbb{E(f(Y))})| = W_1(F_1,F_2) = \int \limits_{-\inf}^{\inf} |F_1(s)-F_2(s)|ds,
 $$
-where the supremum is over all functions $f: \mathbb{R} \rightarrow \mathbb{R}$ that are 1-Lipchitz [Lemma 1, 1].
+where the supremum is over all functions $f: \mathbb{R} \rightarrow \mathbb{R}$ that are $1-$Lipchitz [Lemma 1, 1].
 
 ---
 
